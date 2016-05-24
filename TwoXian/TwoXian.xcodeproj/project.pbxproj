@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F24746F369960480129C6EC /* libPods-TwoXian.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 450FFB23D277C8EAAE7C1416 /* libPods-TwoXian.a */; };
 		5F009C3D1CF47C6A00E64D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F009C3C1CF47C6A00E64D3F /* AppDelegate.swift */; };
 		5F009C3F1CF47C6A00E64D3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F009C3E1CF47C6A00E64D3F /* ViewController.swift */; };
 		5F009C421CF47C6A00E64D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F009C401CF47C6A00E64D3F /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		450FFB23D277C8EAAE7C1416 /* libPods-TwoXian.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TwoXian.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F009C391CF47C6A00E64D3F /* TwoXian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoXian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F009C3C1CF47C6A00E64D3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F009C3E1CF47C6A00E64D3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		5F009C581CF47C6A00E64D3F /* TwoXianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoXianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F009C5C1CF47C6A00E64D3F /* TwoXianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoXianUITests.swift; sourceTree = "<group>"; };
 		5F009C5E1CF47C6A00E64D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC89EAEC5B60AE1F1BF911E5 /* Pods-TwoXian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwoXian.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwoXian/Pods-TwoXian.debug.xcconfig"; sourceTree = "<group>"; };
+		ADE02D899821150A9C7D3447 /* Pods-TwoXian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwoXian.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwoXian/Pods-TwoXian.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F24746F369960480129C6EC /* libPods-TwoXian.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DE59F6E455C0E4D36133BE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC89EAEC5B60AE1F1BF911E5 /* Pods-TwoXian.debug.xcconfig */,
+				ADE02D899821150A9C7D3447 /* Pods-TwoXian.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5F009C301CF47C6A00E64D3F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +95,8 @@
 				5F009C501CF47C6A00E64D3F /* TwoXianTests */,
 				5F009C5B1CF47C6A00E64D3F /* TwoXianUITests */,
 				5F009C3A1CF47C6A00E64D3F /* Products */,
+				0DE59F6E455C0E4D36133BE7 /* Pods */,
+				CDC474E794D8C4F23FE303FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +113,7 @@
 		5F009C3B1CF47C6A00E64D3F /* TwoXian */ = {
 			isa = PBXGroup;
 			children = (
+				5F009C6A1CF47D5500E64D3F /* Classes */,
 				5F009C3C1CF47C6A00E64D3F /* AppDelegate.swift */,
 				5F009C3E1CF47C6A00E64D3F /* ViewController.swift */,
 				5F009C401CF47C6A00E64D3F /* Main.storyboard */,
@@ -125,6 +142,102 @@
 			path = TwoXianUITests;
 			sourceTree = "<group>";
 		};
+		5F009C6A1CF47D5500E64D3F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5F009C6B1CF47DFB00E64D3F /* Category（扩展） */,
+				5F009C6C1CF47DFB00E64D3F /* Classification（分类） */,
+				5F009C6D1CF47DFB00E64D3F /* Common（公共方法） */,
+				5F009C6E1CF47DFB00E64D3F /* Home（首页） */,
+				5F009C6F1CF47DFB00E64D3F /* LightningSend（闪电送） */,
+				5F009C701CF47DFB00E64D3F /* Main（主函数） */,
+				5F009C711CF47DFB00E64D3F /* Me（我的两鲜） */,
+				5F009C721CF47DFB00E64D3F /* ShopingCart（购物车） */,
+				5F009C731CF47DFB00E64D3F /* Tools（工具） */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5F009C6B1CF47DFB00E64D3F /* Category（扩展） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Category（扩展）";
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5F009C6C1CF47DFB00E64D3F /* Classification（分类） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Classification（分类）";
+			path = Classification;
+			sourceTree = "<group>";
+		};
+		5F009C6D1CF47DFB00E64D3F /* Common（公共方法） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Common（公共方法）";
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5F009C6E1CF47DFB00E64D3F /* Home（首页） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Home（首页）";
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5F009C6F1CF47DFB00E64D3F /* LightningSend（闪电送） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "LightningSend（闪电送）";
+			path = LightningSend;
+			sourceTree = "<group>";
+		};
+		5F009C701CF47DFB00E64D3F /* Main（主函数） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Main（主函数）";
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5F009C711CF47DFB00E64D3F /* Me（我的两鲜） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Me（我的两鲜）";
+			path = Me;
+			sourceTree = "<group>";
+		};
+		5F009C721CF47DFB00E64D3F /* ShopingCart（购物车） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "ShopingCart（购物车）";
+			path = ShopingCart;
+			sourceTree = "<group>";
+		};
+		5F009C731CF47DFB00E64D3F /* Tools（工具） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Tools（工具）";
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		CDC474E794D8C4F23FE303FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				450FFB23D277C8EAAE7C1416 /* libPods-TwoXian.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F009C611CF47C6A00E64D3F /* Build configuration list for PBXNativeTarget "TwoXian" */;
 			buildPhases = (
+				BD5BE3BC58712BF67EE8313E /* 📦 Check Pods Manifest.lock */,
 				5F009C351CF47C6A00E64D3F /* Sources */,
 				5F009C361CF47C6A00E64D3F /* Frameworks */,
 				5F009C371CF47C6A00E64D3F /* Resources */,
+				0F509945BD2800F91127EB78 /* 📦 Embed Pods Frameworks */,
+				4E7C3CE628D713035AA8CC75 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +369,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F509945BD2800F91127EB78 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwoXian/Pods-TwoXian-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E7C3CE628D713035AA8CC75 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwoXian/Pods-TwoXian-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD5BE3BC58712BF67EE8313E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5F009C351CF47C6A00E64D3F /* Sources */ = {
@@ -398,6 +562,7 @@
 		};
 		5F009C621CF47C6A00E64D3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC89EAEC5B60AE1F1BF911E5 /* Pods-TwoXian.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TwoXian/Info.plist;
@@ -409,6 +574,7 @@
 		};
 		5F009C631CF47C6A00E64D3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADE02D899821150A9C7D3447 /* Pods-TwoXian.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TwoXian/Info.plist;
@@ -485,6 +651,7 @@
 				5F009C631CF47C6A00E64D3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F009C641CF47C6A00E64D3F /* Build configuration list for PBXNativeTarget "TwoXianTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +660,7 @@
 				5F009C661CF47C6A00E64D3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F009C671CF47C6A00E64D3F /* Build configuration list for PBXNativeTarget "TwoXianUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +669,7 @@
 				5F009C691CF47C6A00E64D3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
